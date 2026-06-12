@@ -1,0 +1,10 @@
+{
+  "publisher": "github.DevinSanders",
+  "id": "sampler.reverb",
+  "name": "Reverb",
+  "version": "1.0.0",
+  "author": "Devin Sanders",
+  "description": "Adds spatial ambience to audio. Five presets (Cathedral, Cave, Hall, Room, Small Room) and a single wet/dry knob.",
+  "entryDll": "ReverbPlugin.dll",
+  "isTheme": false
+}
