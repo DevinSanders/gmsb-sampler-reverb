@@ -11,8 +11,8 @@ namespace ReverbPlugin.Tests;
 // allpass histories. The host wraps this in BypassableSamplerInstance, which
 // freezes the wet chain while bypassed — so on un-bypass you'll briefly hear
 // stale tail from when bypass engaged. The tests below exercise the wet DSP
-// directly via CreateEffect (bypassing the wrapper); the freeze is a host-tier
-// concern documented in the main app's CLAUDE.md §"FX Chain v1 limitations."
+// directly via CreateEffect (bypassing the wrapper); the freeze is a
+// host-tier concern, not a plugin one.
 
 /// <summary>
 /// Tests drive the plugin entirely through its public contract
